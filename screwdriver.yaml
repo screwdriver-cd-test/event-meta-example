@@ -1,0 +1,7 @@
+jobs:
+  main:
+    image: node:6
+    steps:
+      - meta: cat /sd/meta/meta.json 
+    requires: [~commit]
+      
